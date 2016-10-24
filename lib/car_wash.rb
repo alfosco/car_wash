@@ -1,7 +1,7 @@
 class CarWash
-  def initialize(location, year)
+  def initialize(location, opening_year)
    #@location = location
-   #@year = year
+   #@opening_year = opening_year
   end
 
   def opening_year

@@ -8,7 +8,16 @@ class CarWashTest < Minitest::Test
   end
 
   def test_it_assigns_opening_year
-    assert 2005, CarWash.opening_year
+    cw = CarWash.new
+    assert 2005, cw.opening_year
+  end
+
+  def test_it_extracts_city
+
+  end
+
+  def test_it_extracts_state
+
   end
 
 end
